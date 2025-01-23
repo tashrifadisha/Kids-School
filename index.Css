@@ -1,0 +1,27 @@
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add more styling */
+  }
+  
+  /* Banner */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add more styling */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav .nav-links, nav .contact-btn {
+      display: none;
+    }
+    nav .menu-bar {
+      display: block;
+    }
+    /* More responsive styling */
+  }
+  
